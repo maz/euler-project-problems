@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#define MAGIC_NUMBER 13195
-
+//#define MAGIC_NUMBER 13195
+#define MAGIC_NUMBER 600851475143
 
 main(){
 
@@ -20,7 +20,6 @@ main(){
                         else{
                                 theNum--;
                         }
-
                 }
                 else{
                         theNum--;
@@ -29,7 +28,6 @@ main(){
                 }
         }
         return 0;
-
 }
 
 int primeCheck(long long candidate){ // checks to see if candidate is prime
@@ -60,4 +58,3 @@ int factorCheck(long long prelimResult){
                 return 2;
             }
 }
-                               
